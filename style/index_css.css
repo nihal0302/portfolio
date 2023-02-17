@@ -611,6 +611,7 @@ header {
       .header-center-1 button {
         position: relative;
         top: 25%;
+        margin-top: 0px;
         padding: 10px 40px;
         background-color: transparent;
         color: #252525;
