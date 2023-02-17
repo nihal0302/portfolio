@@ -610,6 +610,7 @@ header {
         width: 25px;
       }
       .header-center-1 button {
+        display: inline-block;
         position: relative;
         top: 25%;
         margin-top: 30px;
