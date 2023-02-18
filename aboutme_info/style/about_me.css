@@ -516,6 +516,8 @@
         cursor: pointer;
         margin: 0 25px;
         padding-top: 20px;
+        padding-right: 3px;
+        padding-left: 3px;
         appearance: none;
         background: none;
         outline: none;
