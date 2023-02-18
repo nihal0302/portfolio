@@ -585,7 +585,7 @@ header {
       
       .header-center-1 h1 {
         position: relative;
-        top: 25%;
+        top: 23%;
         font-size: 16px;
         font-weight: normal;
         margin-bottom: 10px;
@@ -600,7 +600,7 @@ header {
 
       .header-center-1 p {
         position: relative;
-        top: 25%;
+        top: 23%;
         font-size: 72px;
         font-weight: 600;
         margin-top: 0;
@@ -619,7 +619,7 @@ header {
       }
       .contact {
         position: relative;
-        top: 25%;
+        top: 23%;
         margin-top: 30px;
         padding: 10px 40px;
         background-color: transparent;
