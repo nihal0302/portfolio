@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
   var h1 = document.querySelector(".header-center-1 h1");
   var p = document.querySelector(".header-center-1 p");
   h1.classList.add("show");
