@@ -568,7 +568,6 @@
         border-radius: 10px;
       }
       .section .description .row{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
