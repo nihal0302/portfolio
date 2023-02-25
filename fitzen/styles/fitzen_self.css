@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@600&display=swap');
 
       body {
         background-color: #fafafa;
@@ -591,8 +592,13 @@
       }
       #s2 p{
         width: max-content;
-        
       }
+      #typography .row {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      
 
       
       @media only screen and (min-width: 1600px) {
