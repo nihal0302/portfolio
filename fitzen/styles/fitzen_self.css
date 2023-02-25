@@ -901,6 +901,12 @@
         .solution .description2 {
           flex-direction: column-reverse;
         }
+        .solution .description1 .gap{
+          margin-top: 0px;
+        }
+        .solution .description2 .gap{
+          margin-top: 0px;
+        }
         .journey .part2{
           font-size: 6px;
         }
