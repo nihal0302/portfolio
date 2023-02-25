@@ -951,11 +951,17 @@
           width: 8%;
           height: auto;
         }
+        .persona_1 .section1 .user{
+          margin-top: 3%;
+        }
        .persona_1 .section1 .section2{
-          gap:10px;
+          gap:0px;
+        }
+        .persona_2 .section1 .user{
+          margin-top: 1%;
         }
         .persona_2 .section1 .section2{
-          gap:20px;
+          gap:0px;
         }
         .journey .part2 table img{
           width: 100%;
