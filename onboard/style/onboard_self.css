@@ -734,6 +734,7 @@ p, .hmw p1{
         }
         .hero p{
             font-size: 14px;
+            margin: 0 5%;
         }
         .hero #main{
             width: 90%;
