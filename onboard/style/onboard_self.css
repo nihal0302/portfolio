@@ -252,6 +252,11 @@ p, .hmw p1{
         cursor: pointer;
         font-weight: 500;
         margin-top: 2%;
+        align-self: center;
+    }
+    .links-button a{
+        text-decoration: none;
+        color: #fafafa;
     }
     h7{
         font-size: 250px;
