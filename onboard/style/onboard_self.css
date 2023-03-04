@@ -242,6 +242,17 @@ p, .hmw p1{
     #grid-item-3 .details{
         width: 200px;
     }
+    .grid-item2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .grid-item2 li{
+      margin-bottom: 0;
+    }
+    .grid-item2 .details2{
+      width: 65%;
+    }
     .links-button{
         display: flex;
         margin: auto;
