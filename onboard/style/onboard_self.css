@@ -367,6 +367,11 @@ p, .hmw p1{
         height: auto;
         margin-top: 5%;
       }
+      .comp_analysis .info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+      }
       .comp_analysis .description{
         display: flex;
         flex-direction: column;
