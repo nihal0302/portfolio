@@ -216,8 +216,8 @@ p, .hmw p1{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-auto-rows: minmax(250px, auto);
-        grid-row-gap: 20px;
-        grid-column-gap: 20px;
+        grid-row-gap: 40px;
+        grid-column-gap: 30px;
         margin-top: 5%;
     }
     .grid-item{
@@ -226,7 +226,7 @@ p, .hmw p1{
         justify-content: space-evenly;
         align-items: flex-start;
     }
-    .grid-item img{
+    .grid-item img, .grid-item2 img{
         width:100%;
         height: auto;
     }
@@ -242,16 +242,20 @@ p, .hmw p1{
     #grid-item-3 .details{
         width: 200px;
     }
+    .grid-container .details p, .grid-container .details2 p{
+      font-size: 14px;
+    }
     .grid-item2{
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
+      align-items:flex-start;
     }
     .grid-item2 li{
       margin-bottom: 0;
     }
     .grid-item2 .details2{
-      width: 65%;
+      width: 63%;
     }
     .links-button{
         display: flex;
@@ -485,7 +489,7 @@ p, .hmw p1{
         width: 100%;
       }
       .prototype{
-        width: 90%;
+        width: 50%;
         height: auto;
       }
       .usability h3{
