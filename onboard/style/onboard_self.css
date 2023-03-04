@@ -216,8 +216,8 @@ p, .hmw p1{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-auto-rows: minmax(250px, auto);
-        grid-row-gap: 40px;
-        grid-column-gap: 30px;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
         margin-top: 5%;
     }
     .grid-item{
