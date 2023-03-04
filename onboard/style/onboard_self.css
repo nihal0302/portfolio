@@ -584,7 +584,7 @@ p, .hmw p1{
             position: relative;
         }
 
-        .grid-item img{
+        .grid-item img , .grid-item2 img{
             width:70%;
             height: auto;
         }
@@ -782,15 +782,18 @@ p, .hmw p1{
           .problem_v1 h5{
             margin: 8%;
         }
-        .grid-item .image{
+        .grid-item .image, .grid-item2 .image{
             text-align-last: center;
         }
         #grid-item-3 .details {
             width: 150px;
         }
-        .grid-item img{
+        .grid-item img, .grid-item2 img{
             width:70%;
             height: auto;
+        }
+        .grid-item2{
+          justify-content: space-evenly;
         }
         .grid-container{
             grid-template-columns: 100%;
