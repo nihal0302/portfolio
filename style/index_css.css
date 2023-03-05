@@ -206,8 +206,16 @@
         font-size: 18px; /* Set the font size */
         margin-left: 8px; /* Add some space between the text and the arrow */
       }
-
-      .project img {
+      #project_3 .description minimal-button::after {
+        display: none;
+      }
+      h6{
+        font-size: 12px;
+      }
+      .fa-lock{
+        margin-left: 2%;
+      }
+     .project img {
       width: 100%;
       height: auto;
       float: right;
