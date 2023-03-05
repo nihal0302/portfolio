@@ -6,8 +6,11 @@
       }
       body {
         background-color: #fafafa;
-        margin-left: 5%;
-        margin-right: 5%;
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+      }
+      .header-center-1 , .header-center-2 , .header-center , .project{
+        margin: 0 5%;
       }
       header nav {
         position: fixed;
@@ -137,7 +140,6 @@
       }
       .project::after {
       content: "";
-
       position: absolute;
       bottom: -100px;
       left: 50%;
@@ -145,6 +147,12 @@
       height: 1px;
       width: 80%;
       background-color: rgba(0, 0, 0, 0.2);
+      }
+      #project_3::after{
+        display: none;
+      }
+      #project_3 .description p{
+        margin-bottom: 16px;
       }
 
       .gap {
@@ -211,6 +219,8 @@
       }
       h6{
         font-size: 12px;
+        font-weight: 500;
+        margin: 0 0 20px 0;
       }
       .fa-lock{
         margin-left: 2%;
@@ -224,36 +234,50 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+      background-color: #121212;
+      padding: 3% 0;
       }
       .connect-container p{
-        font-size: 24px;
-                margin-bottom: 30px;
+        margin-left: 5%;
+        font-size: 42px;
+        margin-bottom: 20px;
+        color: #fafafa;
+        text-align: left;
       }
       .connect-container n{
-        font-size: 16px;
+        font-size: 20px;
+        color: #fafafa;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 1%;
       }
-
+      .fa-linkedin-in{
+        font-size: 40px;
+        color: #fafafa;
+        margin-right: 1%;
+      }
+      .fa-behance{
+        font-size: 40px;
+        color: #fafafa;
+      }
       .icon-container {
       display: flex;
-      justify-content: center;
-      margin-top: 20px;
+      justify-content: flex-start;
+      margin-top: 2%;
+      margin-left: 5%;
+      gap: 2%;
       }
 
-      .icon-container img {
-      height: auto;
-      width: 30px;
-      border-radius: 0px;
-      margin: 0 10px;
-      padding-top: 0px;
-      }
       .image-container {
       position: relative;
       }
       .Copyright p{
-        text-align:center; 
+        text-align:left; 
         font-size:14px; 
-        margin-top: 24px; 
-        color: #7d7d7d
+        margin-top: 4%; 
+        color: #7d7d7d;
+        margin-left: 5%;
+        margin-bottom: 0;
       }
       .hamburger {
         display: none;
@@ -277,8 +301,10 @@ header {
       }
       body {
         background-color: #fafafa;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 0;
+      }
+      .header-center-1 , .header-center-2 , .header-center , .project{
+        margin: 0 5%;
       }
       header nav {
         position: fixed;
@@ -459,6 +485,20 @@ header {
         margin-left: 8px; /* Add some space between the text and the arrow */
       }
 
+      h6{
+        margin-bottom: 16px;
+      }
+      .fa-linkedin-in{
+        font-size: 30px;
+        color: #fafafa;
+        margin-right: 1%;
+      }
+      .fa-behance{
+        font-size: 30px;
+        color: #fafafa;
+        
+      }
+
       .project img {
       margin: auto;
       margin-top: 30px;
@@ -471,7 +511,7 @@ header {
    .connect-container {
       display: flex;
       flex-direction: column;
-      text-align: center;
+      text-align: left;
       }
       .connect-container p{
         font-size: 24px;
@@ -482,7 +522,7 @@ header {
 
       .icon-container {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       margin-top: 20px;
       }
 
@@ -498,9 +538,10 @@ header {
       }
       .Copyright p{
         text-align:center; 
-        font-size:14px; 
+        font-size:12px; 
         margin-top: 24px; 
-        color: #7d7d7d
+        color: #7d7d7d;
+        width: max-content;
       }
       .hamburger {
         display: none;
@@ -526,8 +567,10 @@ header {
       }
       body {
         background-color: #fafafa;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin: 0;
+      }
+      .header-center-1 , .header-center-2 , .header-center , .project{
+        margin: 0 5%;
       }
       header nav {
         position: fixed;
@@ -708,6 +751,9 @@ header {
         font-size: 18px; /* Set the font size */
         margin-left: 8px; /* Add some space between the text and the arrow */
       }
+      h6{
+        margin-bottom: 4px;
+      }
 
       .project img {
       margin: auto;
@@ -720,8 +766,7 @@ header {
    .connect-container {
       display: flex;
       flex-direction: column;
-      text-align: center;
-      margin: 0 5%;
+      text-align: left;
       }
       .connect-container p{
         font-size: 24px;
@@ -732,24 +777,23 @@ header {
 
       .icon-container {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       margin-top: 20px;
       }
 
-      .icon-container img {
-      height: auto;
-      width: 30px;
-      border-radius: 0px;
-      margin: 0 10px;
-      padding-top: 0px;
+      .fa-linkedin-in{
+        font-size: 24px;
+        color: #fafafa;
+        margin-right: 1%;
       }
-      .image-container {
-      position: relative;
+      .fa-behance{
+        font-size: 24px;
+        color: #fafafa;
       }
       .Copyright p{
 
-        text-align:center; 
-        font-size:14px; 
+        text-align:left; 
+        font-size:12px; 
         margin-top: 24px; 
         color: #7d7d7d
       }
