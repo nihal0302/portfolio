@@ -512,6 +512,7 @@ header {
       display: flex;
       flex-direction: column;
       text-align: left;
+      padding: 4% 0;
       }
       .connect-container p{
         font-size: 24px;
@@ -768,6 +769,7 @@ header {
       display: flex;
       flex-direction: column;
       text-align: left;
+      padding: 6% 0;
       }
       .connect-container p{
         font-size: 24px;
