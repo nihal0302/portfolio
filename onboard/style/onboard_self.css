@@ -14,6 +14,7 @@ body {
     margin-right: 15%;
 }
 header nav {
+  font-family: 'Raleway', sans-serif;
   position: fixed;
   top: 0;
   left: 0;
