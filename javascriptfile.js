@@ -32,7 +32,7 @@ let calcScrollValue = () => {
   }
   scrollProgress.addEventListener("click", () => {
       window.scrollTo({
-        top: 25000, // Change this value to your desired position
+        top: 23270, // Change this value to your desired position
         behavior: 'smooth'
       });
   });

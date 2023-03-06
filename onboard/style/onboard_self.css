@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@600&display=swap');
 body {
   background-color: #fafafa;
   color: #282d46;
@@ -581,6 +582,56 @@ p, .hmw p1{
       label{
         cursor: pointer;
       }
+      .connect-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #121212;
+        padding: 3% 0;
+        font-family: 'Raleway', sans-serif;
+        }
+        .connect-container p{
+          margin-left: 5%;
+          font-size: 42px;
+          margin-bottom: 20px;
+          color: #fafafa;
+          text-align: left;
+        }
+        .connect-container n{
+          font-size: 20px;
+          color: #fafafa;
+          text-align: left;
+          margin-left: 5%;
+          margin-top: 1%;
+        }
+        .fa-linkedin-in{
+          font-size: 40px;
+          color: #fafafa;
+          margin-right: 1%;
+        }
+        .fa-behance{
+          font-size: 40px;
+          color: #fafafa;
+        }
+        .icon-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2%;
+        margin-left: 5%;
+        gap: 2%;
+        }
+  
+        .image-container {
+        position: relative;
+        }
+        .Copyright p{
+          text-align:left; 
+          font-size:14px; 
+          margin-top: 4%; 
+          color: #7d7d7d;
+          margin-left: 5%;
+          margin-bottom: 0;
+        }
 
       
       
@@ -651,6 +702,41 @@ p, .hmw p1{
       }
       .quote img:nth-of-type(1), .quote img:nth-of-type(2) {
         width: 8%;
+    }
+    .connect-container {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 4% 0;
+      }
+      .connect-container p{
+        font-size: 24px;
+      }
+      .connect-container n{
+        font-size: 16px;
+      }
+      .icon-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+        gap: 3%;
+        }
+  
+    .fa-linkedin-in{
+      font-size: 30px;
+      color: #fafafa;
+      margin-right: 1%;
+    }
+    .fa-behance{
+      font-size: 30px;
+      color: #fafafa;
+    }
+    .Copyright p{
+      text-align:center; 
+      font-size:12px; 
+      margin-top: 24px; 
+      color: #7d7d7d;
+      width: max-content;
     }
       
       }
@@ -938,6 +1024,43 @@ p, .hmw p1{
     .mobile-screen p{
         font-size: 8px;
         margin-top: -4px;
+    }
+    
+   .connect-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 6% 0;
+    }
+    .connect-container p{
+      font-size: 24px;
+    }
+    .connect-container n{
+      font-size: 14px;
+    }
+
+    .icon-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 4%;
+    }
+
+    .fa-linkedin-in{
+      font-size: 24px;
+      color: #fafafa;
+      margin-right: 1%;
+    }
+    .fa-behance{
+      font-size: 24px;
+      color: #fafafa;
+    }
+    .Copyright p{
+
+      text-align:left; 
+      font-size:12px; 
+      margin-top: 24px; 
+      color: #7d7d7d
     }
       }
 
