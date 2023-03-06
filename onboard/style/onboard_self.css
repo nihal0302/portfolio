@@ -702,6 +702,9 @@ p, .hmw p1{
             height: 35px;
             width: 25px;
           }
+          .fixed-btn {
+            display: none;
+          }
           .hamburger{
             z-index: 2;
             position: relative;
