@@ -9,6 +9,7 @@
         margin-left: 15%;
         margin-right: 15%;
       }
+      
       header nav {
         position: fixed;
         top: 0;
@@ -501,6 +502,11 @@
         padding: 1% 1.5%;
         border: none;
         border-radius: 10px;
+        cursor: pointer;
+      }
+      .detailed a{
+        text-decoration: none;
+        color: #fafafa;
       }
       .userflow .pictures{
         display: flex;
@@ -536,7 +542,6 @@
         margin-bottom: 5%;
       }
       .rows .screens img{
-        width: 100%;
         height: auto;
       }
       #row1{
@@ -607,8 +612,70 @@
         font-size: 16px;
         font-weight: bold;
       }
-      
-
+      .hifi_designs .rows p{
+        font-size: 14px;
+        text-align: center;
+        max-width: 200px;
+      }
+      .hifi_designs ul{
+        padding-left: 0;
+      }
+      #usability_test .rows{
+        padding: 0 8%;
+      }
+      .connect-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #121212;
+        padding: 3% 0;
+        font-family: 'Raleway', sans-serif;
+        }
+        .connect-container p{
+          margin-left: 5%;
+          font-size: 42px;
+          margin-bottom: 20px;
+          color: #fafafa;
+          text-align: left;
+        }
+        .connect-container n{
+          font-size: 20px;
+          color: #fafafa;
+          text-align: left;
+          margin-left: 5%;
+          margin-top: 1%;
+        }
+        .fa-linkedin-in{
+          font-size: 40px;
+          color: #fafafa;
+          margin-right: 1%;
+        }
+        .fa-behance{
+          font-size: 40px;
+          color: #fafafa;
+        }
+        .icon-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2%;
+        margin-left: 5%;
+        gap: 2%;
+        }
+  
+        .image-container {
+        position: relative;
+        }
+        .Copyright p{
+          text-align:left; 
+          font-size:14px; 
+          margin-top: 4%; 
+          color: #7d7d7d;
+          margin-left: 5%;
+          margin-bottom: 0;
+        }
+        footer{
+          margin: 0px;
+        }
       
       @media only screen and (min-width: 1600px) {
         body{
