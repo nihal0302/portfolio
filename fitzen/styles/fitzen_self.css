@@ -488,9 +488,19 @@
       #comp_audit_3 h3{
         width: 100%;
       }
+      .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 4%;
+      }
       .detailed{
         background-color: #f6572a;
         color: #fafafa;
+        padding: 1% 1.5%;
+        border: none;
+        border-radius: 10px;
       }
       .userflow .pictures{
         display: flex;
@@ -962,7 +972,6 @@
           gap:0px;
         }
         .journey .part2 table img{
-          width: 100%;
           height: auto;
         }
         .journey .part1 .right-side h3{
