@@ -724,6 +724,9 @@
           margin-left: 8%;
           margin-right: 8%;
         }
+        .header3 h1{
+          font-size: 28px;
+        }
         h1{
           font-size: 28px;
         }
@@ -737,6 +740,7 @@
         .dumbbells img{
           width: 27px;
           height: auto;
+          margin-top: -10px;
         }
         .author p{
           margin: 0;
@@ -934,10 +938,13 @@
           padding-bottom: 5px;
           font-weight: bold;
         }
-
+        .header3 h1{
+          font-size: 16px;
+        }
         .hero{
           flex-direction: column;
           align-items: center;
+          margin-top: 25%;
         }
         .hero .hero-left .header1{
           margin-bottom: 0px;
@@ -957,6 +964,7 @@
         }
         .header2 p{
           font-size: 12px;
+          padding: 8px 8px;
         }
         h1{
           font-size: 20px;
@@ -976,6 +984,7 @@
         .dumbbells img{
           width: 17px;
           height: auto;
+          margin-top: 0;
         }
         .dumbbells{
           padding-top: 0px;
