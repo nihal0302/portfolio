@@ -304,8 +304,16 @@ p, .hmw p1{
         font-weight: 500;
         margin-top: 2%;
         align-self: center;
+        border: none;
     }
-    .links-button a{
+    .details-btn{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 5%;
+      gap: 2%;
+    }
+    .details-btn a{
         text-decoration: none;
         color: #fafafa;
     }
