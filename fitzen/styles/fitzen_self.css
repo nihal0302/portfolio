@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
 
       body {
         background-color: #fafafa;
         color: #282d46;
-        padding: 20px;
         font-family: 'Poppins', 'Source Sans Pro';
+        margin:0;
+        
+      }
+      .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
         margin-left: 15%;
         margin-right: 15%;
       }
-      
       header nav {
         position: fixed;
         top: 0;
@@ -57,27 +60,31 @@
       .mobile-nav a{
         display: none;
       }
+      
       .hero-left{
+        width: 50%;
         position: relative;
-        margin: 15% 0 0 0;
+        place-self: center;
       }
       .header1 {
         display: flex;
         flex-direction: row;
         position: relative;
         align-items: center;
-        margin-bottom: 50px;
+        justify-content: flex-start;
+        margin-bottom: 10%;
       }
       .dumbbells{
         padding-left: 3px;
         padding-right: 3px;
-        padding-top: 9px;
-
+        padding-top: 15px;
+      }
+      .dumbbells img{
+        height: 34px;
       }
       .header2{
+        margin-bottom: 10%;
         position: relative;
-        margin-bottom: 80px;
-        
       }
       .header2 p{
         padding: 15px 15px 15px 15px;
@@ -93,13 +100,18 @@
         font-size: 24px;
         color: #282d46;
       }
+      .header3 h1{
+        font-size: 32px;
+      }
+      .hero-right{
+        width: 100%;
+        text-align: -webkit-center;        
+      }
       h1{
         font-size: 40px;
         margin-bottom: 20px;
         font-weight: 600;
-      }
-      .author {
-       margin: 0 0 0 55% ; 
+        line-height: 1.2  ;
       }
       .author p{
         margin: 0 0 0 30px ;
@@ -117,10 +129,11 @@
         position: relative;
         flex-direction: row;
         justify-content: center;
+        margin-top: 10%;
       }
       .hero-right img{
         margin-top: 6px;
-        width: 122%;
+        width: 100%;
         height: auto;
       }
       h2{
@@ -138,6 +151,9 @@
         margin-bottom: 0px;
       }
       .section{
+        margin-top: 12%;
+      }
+      .section_internal{
         margin-top: 15%;
       }
       .overview1{
@@ -189,13 +205,13 @@
 
       .solution .description1 img{
         margin-top: 50px;
-        width: 60%;
+        width: 40%;
         height: auto;
         max-width: 520px;
       }
       .solution .description2 img{
         margin-top: 50px;
-        width: 60%;
+        width: 40%;
         height: auto;
         max-width: 520px;
       }
@@ -493,7 +509,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 50px;
+        gap: 5%;
         margin-top: 4%;
       }
       .detailed{
@@ -542,6 +558,7 @@
         margin-bottom: 5%;
       }
       .rows .screens img{
+        width: 100%;
         height: auto;
       }
       #row1{
@@ -678,33 +695,37 @@
         }
       
       @media only screen and (min-width: 1600px) {
-        body{
+        .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
          max-width: 1121px;
-         margin: auto;
+         margin-left: auto;
+         margin-right: auto;
+        }
+        .section{
+          margin-top: 10%;
         }
       }
 
       @media only screen and (max-width: 1300px) {
-        body{
+        .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
           margin-left: 10%;
           margin-right: 10%;
         }
       }
 
       @media only screen and (max-width: 1114px) {
-        body{
+        .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
           margin-left: 8%;
           margin-right: 8%;
         }
 
       }
       @media only screen and (max-width: 1024px) {
-        body{
+        .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
           margin-left: 8%;
           margin-right: 8%;
         }
         h1{
-          font-size: 32px;
+          font-size: 28px;
         }
         h3{
           font-size: 26px;
@@ -751,10 +772,45 @@
         .screens{
           width: 28%;
         }
+        .connect-container {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          padding: 4% 0;
+          }
+          .connect-container p{
+            font-size: 24px;
+          }
+          .connect-container n{
+            font-size: 16px;
+          }
+          .icon-container {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+            gap: 3%;
+            }
+      
+        .fa-linkedin-in{
+          font-size: 30px;
+          color: #fafafa;
+          margin-right: 1%;
+        }
+        .fa-behance{
+          font-size: 30px;
+          color: #fafafa;
+        }
+        .Copyright p{
+          text-align:center; 
+          font-size:12px; 
+          margin-top: 24px; 
+          color: #7d7d7d;
+          width: max-content;
+        }
     }
 
       @media only screen and (max-width: 929px) {
-        body{
+        .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
           margin-left: 5%;
           margin-right: 5%;
         }
@@ -764,10 +820,9 @@
       }
       @media only screen and (max-width: 768px) {
 
-        body{
-          margin-left: 2%;
-          margin-right: 2%;
-          width: 86%;
+        .hero, .overview1, .section, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
+          margin-left: 6%;
+          margin-right: 6%;
         }
         header nav {
           position: fixed;
@@ -890,9 +945,10 @@
         }
         .hero .hero-left .header2{
           margin-bottom: 0px;
+          text-align: -webkit-center;
         }
         .hero .hero-right img {
-          width: 100%;
+          width: 85%;
           height: auto;
       }
         .overview1 img{
@@ -900,11 +956,12 @@
           height: 24px ;
         }
         .header2 p{
-          display: none;
+          font-size: 12px;
         }
         h1{
           font-size: 20px;
           width: 100%;
+          text-align: -webkit-center;
         }
         h3{
           font-size: 16px;
@@ -946,6 +1003,12 @@
           flex-direction: column-reverse;
           align-items: center;
           justify-content: space-evenly;
+        }
+        .detailed{
+          padding: 1% 3.5%;;
+        }
+        .detailed a{
+          font-size: 10px;
         }
         .solution .description1 img{
           width: 45%;
@@ -1039,6 +1102,7 @@
           gap:0px;
         }
         .journey .part2 table img{
+          width: 35px;
           height: auto;
         }
         .journey .part1 .right-side h3{
@@ -1090,6 +1154,45 @@
         td {
           padding: 7px;
         }
+        .hifi_designs .rows p{
+          font-size: 8px;
+        }
+        .connect-container {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          padding: 6% 0;
+          }
+          .connect-container p{
+            font-size: 24px;
+          }
+          .connect-container n{
+            font-size: 14px;
+          }
+      
+          .icon-container {
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 20px;
+          gap: 4%;
+          }
+      
+          .fa-linkedin-in{
+            font-size: 24px;
+            color: #fafafa;
+            margin-right: 1%;
+          }
+          .fa-behance{
+            font-size: 24px;
+            color: #fafafa;
+          }
+          .Copyright p{
+      
+            text-align:left; 
+            font-size:12px; 
+            margin-top: 24px; 
+            color: #7d7d7d
+          }
           }
 
 
