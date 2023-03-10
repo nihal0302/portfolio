@@ -62,7 +62,7 @@
       }
       .first-container .text-container p {
         padding-right: 80px;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.8;
         margin-bottom: 30px;
       }
@@ -144,6 +144,7 @@
       text-align: left;
       margin-left: 5%;
       margin-top: 1%;
+      margin-right: 5%;
     }
     .fa-linkedin-in{
       font-size: 40px;
