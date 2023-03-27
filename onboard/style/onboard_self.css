@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.overview1 ,.overview2 , .research, .survey , .interview, .personas, .hmw , .solution, .comp_analysis, .sol_opp1, .sol_opp2, .lofi, .hifi, .prototype , .usability{
+.overview1 ,.overview2 , .research, .survey , .interview, .personas, .hmw , .solution, .comp_analysis, .sol_opp1, .sol_opp2, .lofi, .hifi, .prototype , .usability, .design_process{
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -219,6 +219,37 @@ p, .hmw p1{
     margin-right: 25px;
     width: auto;
     height: 35px;
+  }
+
+  .steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+  }
+  .details1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
+  .details1 h3{
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+  } 
+  .details1 p{
+    margin: 10px 0 0 0;
+    font-size: 13px;
+    text-align: center;
+    line-height: normal;
+  }
+  .details1 img{
+    width: 100px;
+    height: auto;
+  }
+  .design_process h2{
+    margin-bottom: 32px;
   }
 
   .problem_v1{
@@ -648,7 +679,7 @@ p, .hmw p1{
 
       @media only screen and (min-width: 768px) and (max-width: 1023px){
 
-        .overview1 ,.overview2 , .research, .survey , .interview, .personas, .hmw , .solution, .comp_analysis, .sol_opp1, .sol_opp2, .lofi, .hifi, .prototype , .usability{
+        .overview1 ,.overview2 , .research, .survey , .interview, .personas, .hmw , .solution, .comp_analysis, .sol_opp1, .sol_opp2, .lofi, .hifi, .prototype , .usability, .design_process{
             margin-left: 8%;
             margin-right: 8%;
         }
@@ -753,7 +784,7 @@ p, .hmw p1{
 
       @media only screen and (max-width: 767px){
 
-        .overview1 ,.overview2 , .research, .survey , .interview, .personas, .hmw , .solution, .comp_analysis, .sol_opp1, .sol_opp2, .lofi, .hifi, .prototype , .usability{
+        .overview1 ,.overview2 , .research, .survey , .interview, .personas, .hmw , .solution, .comp_analysis, .sol_opp1, .sol_opp2, .lofi, .hifi, .prototype , .usability, .design_process{
             margin-left: 4%;
             margin-right: 4%;
         }
@@ -911,6 +942,15 @@ p, .hmw p1{
             margin-right: 2px;
             width: auto;
             height: 20px;
+          }
+          .design_process .details1 img{
+            width: 40px;
+          }
+          .details1 h3{
+            font-size: 14px;
+          }
+          .details1 p{
+            display: none;
           }
           .problem_v1 h5{
             margin: 8%;
