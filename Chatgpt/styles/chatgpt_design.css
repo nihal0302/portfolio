@@ -128,12 +128,27 @@
         background-color: #929292;
         opacity: 20%;
       }
+      #design_sprint .body-copy{
+        display: contents;
+      }
       #design_sprint h2{
         padding-top: 8px;
       }
       #design_sprint .subheading{
         display: flex;
         flex-direction: row;
+        column-gap: 24px;
+      }
+      #design_sprint .subheading ul{
+        margin: 0;
+      }
+      .topics{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .topics p{
+        width: 60%;
       }
       #analysis{
         display: flex;
