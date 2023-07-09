@@ -442,6 +442,9 @@ header {
         font-size: 18px;
         opacity: 50%;
       }
+      .project p9{
+        font-size: 14px;
+      }
       .project {
        display: flex;
        align-items: flex-start;
