@@ -484,6 +484,9 @@ header {
         line-height: 36px;
         margin-bottom: 30px;
       }
+      .description p9{
+        font-size: 18px;
+      }
       .description minimal-button {
          padding: 10px 20px;
         background-color: transparent;
@@ -751,6 +754,9 @@ header {
         font-size: 14px;
         line-height: 22px;
         margin-bottom: 20px;
+      }
+      .description p9{
+        font-size: 14px;
       }
       .description minimal-button {
         padding: 5px 10px;
