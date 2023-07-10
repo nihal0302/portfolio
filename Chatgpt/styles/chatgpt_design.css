@@ -7,7 +7,9 @@
         color: #282d46;
         font-family: 'Poppins', 'Source Sans Pro';
         margin:0;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
       .hero, .section_1, .solution, .design_process, .research, .persona, .journey, .comp_audit, .userflow, .info_arch, .wireframes, .color_scheme, .hifi_designs{
         margin-left: 12%;
