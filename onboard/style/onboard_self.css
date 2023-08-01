@@ -331,7 +331,8 @@ p, .hmw p1{
         display: flex;
         margin: auto;
         background-color: #393939;
-        padding: 10px 16px;
+        padding: 12px 24px;
+        font-size: 16px;
         color: #fafafa;
         border-radius: 20px;
         cursor: pointer;
