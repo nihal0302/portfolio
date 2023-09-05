@@ -78,7 +78,7 @@
         font-size: 24px;
         line-height: 110%;
         font-weight: 400;
-        color: #FF9C3F;
+        color: #F1f1f1;
       }
       h3{
         font-size: 52px;
@@ -142,12 +142,9 @@
       .zoom-image:hover{
         transform: scale(1.03);
       } 
-      #letter{
-        margin: 0;
-        padding-left: 9%;
-        overflow: visible;
-        border: none;
-
+      
+      #letter img{
+        width: 100%;
       }
 
       .connect-container {
