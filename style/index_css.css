@@ -240,9 +240,9 @@
         font-size: 18px; /* Set the font size */
         margin-left: 8px; /* Add some space between the text and the arrow */ 
       }
-      /*#project_11 .description minimal-button::after {
+      #project_112 .description minimal-button::after {
         display: none;
-      }*/
+      }
       h6{
         font-size: 12px;
         font-weight: 500;
