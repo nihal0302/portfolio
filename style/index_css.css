@@ -153,12 +153,52 @@
       width: 80%;
       background-color: rgba(0, 0, 0, 0.2);
       }
-      #project_4::after{
+      #project_3::after{
         display: none;
       }
       #project_3 .description p{
         margin-bottom: 16px;
       }
+
+      
+
+      .carousel-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding-top: 24px;
+    }
+    
+    .carousel {
+        display: flex;
+        gap: 80px;
+        animation: scroll 110s linear infinite;
+        width: max-content; /* Allows the content to grow dynamically */
+        height: 55px;
+    }
+    
+    .carousel-item {
+        flex: 0 0 auto;
+        width: 150px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+    }
+    
+    /* Keyframes for smooth, continuous scrolling */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
 
       .gap {
         margin-top: 200px;
@@ -256,7 +296,7 @@
       height: auto;
       float: right;
       }
-     
+
       .connect-container {
       display: flex;
       flex-direction: column;
@@ -467,6 +507,9 @@ header {
       height: 1px;
       width: 80%;
       background-color: rgba(0, 0, 0, 0.2);
+      }
+      #project_3::after {
+        content: none; /* Removes the line for the element with id="project_3" */
       }
 
       .gap {
