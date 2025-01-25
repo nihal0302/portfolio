@@ -171,7 +171,7 @@
     
     .carousel {
         display: flex;
-        gap: 80px;
+        gap: 160px;
         animation: scroll 110s linear infinite;
         width: max-content; /* Allows the content to grow dynamically */
         height: 55px;
