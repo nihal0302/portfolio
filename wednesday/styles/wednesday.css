@@ -111,6 +111,21 @@
         margin: 15vh 0 48px 0;
         text-align: center;
       }
+      .webflow_website{
+        padding: 12px 42px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 500;
+        color: #121212;
+        background-color: #FFA149;
+        border: none;
+        border-radius: 6px;
+      }
+      .webflow_website:hover {
+        color: #ffffff;
+        transition: color .4s, opacity .4s, color .4s;
+        cursor: pointer;
+        }
       .description{
         display: flex;
         flex-direction: row;
