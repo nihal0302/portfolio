@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>UX Audit</title>
+    <link rel="icon" type="png" href="./assets/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./styles/uxaudit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./../javascriptfile.js"></script>
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:5272930,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+      function showTab(index) {
+            var tabs = document.querySelectorAll('.tab');
+            var contents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach((tab, i) => {
+                tab.classList.toggle('active-tab', i === index);
+                contents[i].classList.toggle('active', i === index);
+            });
+        }
+    </script>
+  </head>
+
+<body>
+  <header>
+	<nav>
+        <div>
+          <a href="./../index.html">
+          <img src="./assets/logo_web2.png" style="position: relative; z-index: 4" alt="Logo">
+          </a>
+        </div>
+        <ul>
+          <li><a href="./../index.html">Work</a></li>
+          <li><a href="./../aboutme_info/about-me.html">About Me</a></li>
+          <li><a href="https://drive.google.com/file/d/1fRb6wZi5d8GpbWd4QeDVYkgaWfp8-oBL/view?usp=sharing" target="_blank">Resume</a></li>
+        </ul>
+        <div class="mobile-nav">
+          <a href="./../index.html">Work</a>
+          <a href="./../aboutme_info/about-me.html">About Me</a>
+          <a href="https://drive.google.com/file/d/1fRb6wZi5d8GpbWd4QeDVYkgaWfp8-oBL/view?usp=sharing" target="_blank">Resume</a>
+        </div>
+        <button class="hamburger">
+        <div class="bar"></div> </button>
+      </nav>
+     </header>
+
+  <div class="section_1">
+    <div class="heading">
+      <h1><span class="blue_txt">Panasonic</span> 
+        <span class="black">Website UX Audit</span></h1>
+        <div class="web_link">
+          <a href="https://www.panasonic.com/mea/en/" target="_blank">
+          <p>Panasonic MEA Website</p> </a>
+        </div>
+    </div>
+    <div class="body-copy">
+      <div class="part-1">
+        <h2>Overview</h2>
+        <p>As part of an internal design initiative at my workplace, I conducted a UX audit on the Panasonic MEA website alongside two other digital platforms. The initiative aimed to establish UX auditing as a service, expanding company’s portfolio and attracting new clients by showcasing our expertise.</p>
+      </div>
+      <div class="part-2">
+        <div class="parameter_1">
+            <h2>Industry</h2>
+            <p>E-Commerce</p>
+        </div>
+        <div class="parameter_2">
+            <h2>Date</h2>
+            <p>Jan 2025</p>
+        </div>
+        <div class="parameter_3">
+            <h2>Team</h2>
+            <p>Individual</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="divider"></div>
+
+    <div class="audit_banner">
+        <img src="./assets/audit_banner.webp" style="width: 100%;">
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="gen_section">
+        <div class="head">
+            <h2>Purpose</h2>
+        </div>
+        <div class="body_text">
+            <p>
+                <span class="black">Panasonic's website have challenges with complex navigation and information overload, making it </span>
+                <span class="blue_txt" style="font-weight: 600;">difficult for users to quickly find products and and identify where to purchase them.</span> 
+                <span class="black"> The UX audit aims to enhance usability, accessibility, and navigation, ensuring a seamless experience and easy redirection to authorized sellers.</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="gen_section">
+        <div class="head">
+            <h2>User Research</h2>
+        </div>
+        <div class="body_text">
+            <p>Due to the project's short 7-day timeline, I couldn’t conduct in-depth user research or access Panasonic’s data and analytics. However, understanding user behavior was crucial for evaluating the website’s UX. To bridge this gap, I organized a 30-minute session with six colleagues, where I introduced the Panasonic website and asked them to create personas based on their understanding of the product.</p>
+            <p>Each Persona included:</p>
+            <ul>
+                <li>Age</li>
+                <li>Digital Knowledge</li>
+                <li>Brief Story</li>
+                <li>2-3 Key Goals</li>
+            </ul>
+            <p>
+                After gathering their inputs, I identified common patterns and used them to develop a proto-persona, ensuring a user-centered approach despite limited resources.</p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="gen_section">
+        <div class="head">
+            <h2 style="margin-bottom:1.5%;">Proto Persona</h2>
+        </div>
+        <img src="./assets/persona.webp" style="width: 100%;">
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="gen_section">
+        <div class="head">
+            <h2 style="margin-bottom:1.5%;">Competitor Analysis Takeaways</h2>
+        </div>
+        <div class="vertical">
+          
+          <div class="top">
+            <img src="./assets/comb_logo.png">
+            <div class="body_text">
+              <ul>
+                  <li>Use of top navigation for B2C and B2B, with a dedicated "B2B/Business" link while keeping business products in the main menu.</li>
+                  <li>Include features like search, filters and sort for better discoverability.</li>
+                  <li>Add customer reviews and product comparison to aid purchase decisions.</li>
+                  <li>Make product detail pages easily scannable for quick browsing.</li>
+                  <li>Breadcrumbs are useful for users who have navigated through multiple pages.</li>
+              </ul>
+          </div>
+          </div>
+          
+            <div class="bottom">
+            
+            <div class="bttn" style="place-self: center;">
+              <a href="https://1drv.ms/x/c/3d21b24ced41c6c0/EQT8MgJWDVlJrJB-9uT0-twBGICcZ4CrdyQt60CqUiT2BQ?e=Wgi8mU" target="_blank">
+              <button class="analysis">Detailed Analysis</button>
+              </a>
+            </div> 
+            </div>
+                      
+        </div>
+    </div>
+
+    
+    <div class="divider"></div>
+
+    <div class="gen_section">
+      <div class="head">
+        <h2>User Journey Mapping</h2>
+      </div>
+      <div class="body_text" id="user_journey_map">
+          <p>I analyzed actions related to finding a product and locating a store and mapped the user journey to identify pain points and improve the experience.</p>
+      </div>
+      <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/OVVbfPagXTGdiK1VpjmqTS/UX-Audit?node-id=1-2&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
+    </div>
+
+     
+    <div class="divider"></div>
+
+    <div class="gen_section" id="UHR">
+      <div class="head">
+        <h2>Usability Heuristics & Recommendations</h2>
+      </div>
+      <img src="./assets/Legend.png">
+      <div class="tabs">
+          <div class="tab active-tab" onclick="showTab(0)"><p>Homepage</p></div>
+          <div class="tab" onclick="showTab(1)"><p>Products Page</p></div>
+          <div class="tab" onclick="showTab(2)"><p>Product Details</p></div>
+          <div class="tab" onclick="showTab(3)"><p>Retailers</p></div>
+          <div class="tab" onclick="showTab(4)"><p>Store Locator</p></div>
+      </div>
+      <div class="tab-content active">
+        <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/OVVbfPagXTGdiK1VpjmqTS/UX-Audit?node-id=601-228&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=601%3A228&embed-host=share" allowfullscreen></iframe>
+        <div class="head recom-legend">
+          <h2 style="width: 100%; text-align: left;">Recommendations</h2>
+          <div class="tags">
+            <div class="tag1">
+              <img src="./assets/hc.png">
+              <p>High Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/mc.png">
+              <p>Medium Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/lc.png">
+              <p>Low Piority</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommendations">
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Unified Nav Bar</h3>
+            </div>
+            <div class="body-content">
+              <p>Combine the products and categories of Consumer and Business related products into one unified navigation bar where users can find everything</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Position of Navigation Bar</h3>
+            </div>
+            <div class="body-content">
+              <p>Prioritize the navigation bar by placing it at the top of the page, ensuring it is immediately noticeable when users open the website.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Powerful Search Bar</h3>
+            </div>
+            <div class="body-content">
+              <p>Implement a highly functional, prominent, and efficient search feature to help users quickly find their desired products.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Interactive Sections</h3>
+            </div>
+            <div class="body-content">
+              <p>Add interactive sections like Featured Products, Panasonic Campaigns, etc., to boost user engagement and ultimately improve conversion rates.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Reduce Blog Posts</h3>
+            </div>
+            <div class="body-content">
+              <p>Reduce the number of blog posts on the homepage, as they take up valuable screen space without adding significant value.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Encourage Primary Action</h3>
+            </div>
+            <div class="body-content">
+              <p>Focus on adding buttons and elements that drive users towards the core action, rather than distracting them with multiple secondary CTAs.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Eliminate Redundant Items</h3>
+            </div>
+            <div class="body-content">
+              <p>The "About Us" section contains repetitive links, making it redundant. This space could be better utilized for other sections.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Enhance CTA Visibility</h3>
+            </div>
+            <div class="body-content">
+              <p>Reposition and redesign CTAs to make them more prominent, ensuring they are easily noticeable and not overlooked.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-content">
+        <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/OVVbfPagXTGdiK1VpjmqTS/UX-Audit?node-id=601-359&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=601%3A359&embed-host=share" allowfullscreen></iframe>
+        <div class="head recom-legend">
+          <h2 style="width: 100%; text-align: left;">Recommendations</h2>
+          <div class="tags">
+            <div class="tag1">
+              <img src="./assets/hc.png">
+              <p>High Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/mc.png">
+              <p>Medium Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/lc.png">
+              <p>Low Piority</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommendations">
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Prioritize Product Display</h3>
+            </div>
+            <div class="body-content">
+              <p>Reorder the content to prioritize showing products first, with additional details like the air purifier’s use placed at the end.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Add Filter Options</h3>
+            </div>
+            <div class="body-content">
+              <p>Add multiple filters to allow users to refine list of products based on their preferences, helping them easily navigate to product of their choice.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Comparison Feature</h3>
+            </div>
+            <div class="body-content">
+              <p>Add a comparison feature allowing users to compare different products, helping them make informed decisions based on their needs.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Improve Visual Hierarchy</h3>
+            </div>
+            <div class="body-content">
+              <p>Use bullet points, tags, chips, spacing, and varied font sizes for product features and descriptions in each product card to make the information easily scannable.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Display Price</h3>
+            </div>
+            <div class="body-content">
+              <p>Price is a crucial factor in a user's purchasing decision. Since multiple retailers offer the product, display the price range to help users make an informed choice. </p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Add Secondary CTA</h3>
+            </div>
+            <div class="body-content">
+              <p>Add a secondary CTA, such as "View Product Details," on each product card to clearly guide users to the detailed product page.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Provide Labels</h3>
+            </div>
+            <div class="body-content">
+              <p>Add text labels to CTAs with only icons, like "Wishlist," to clarify the actions users are taking. There's ample space available to accommodate the text, making the interface more user-friendly.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Add Engaging section</h3>
+            </div>
+            <div class="body-content">
+              <p>Add sections like "Frequently Bought Together" and "Similar Products" to encourage users to explore and purchase additional items.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Low">
+            <div class="header_icon">
+              <img src="./assets/lc.png">
+              <h3 style="color: #9e9e9e;">Encourage to Explore</h3>
+            </div>
+            <div class="body-content">
+              <p>Add sections like "Frequently Bought Together" and "Similar Products" to encourage users to explore and purchase additional items.</p>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      <div class="tab-content">
+        <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/OVVbfPagXTGdiK1VpjmqTS/UX-Audit?page-id=0%3A1&node-id=531-944&viewport=-1127%2C368%2C0.13&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=531%3A944&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+        
+        <div class="head recom-legend">
+          <h2 style="width: 100%; text-align: left;">Recommendations</h2>
+          <div class="tags">
+            <div class="tag1">
+              <img src="./assets/hc.png">
+              <p>High Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/mc.png">
+              <p>Medium Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/lc.png">
+              <p>Low Piority</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommendations">
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Adhere to Industry Standards</h3>
+            </div>
+            <div class="body-content">
+              <p>An industry-standard product detail page typically includes high-quality product images using carousels or lightboxes, concise product features in bullet points for easy scanning, and expandable/collapsible menus for detailed specifications. The page also prioritizes key information such as pricing, availability, and prominent CTAs.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Optimize Layout</h3>
+            </div>
+            <div class="body-content">
+              <p>Rearrange content to prioritize key information such as pricing, features, and CTAs at the top. Make secondary information like product specs or additional details accessible but not overwhelming.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Add Customer Reviews</h3>
+            </div>
+            <div class="body-content">
+              <p>To establish trust with users, include customer reviews and star ratings, showcasing feedback from other buyers to help users make informed decisions.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Primary CTA Visibility</h3>
+            </div>
+            <div class="body-content">
+              <p>Keep the primary CTA easily accessible throughout the page, so users can take immediate action when they decide to purchase, without having to search for it.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Clarify Button Label</h3>
+            </div>
+            <div class="body-content">
+              <p>Rename the "Shop Now" button to something more descriptive, like "Find Retailer," to accurately reflect the action users will take, which is finding nearby or online stores rather than purchasing directly.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Secondary CTA Position</h3>
+            </div>
+            <div class="body-content">
+              <p>Place the secondary CTA next to the primary one to allow users to easily choose between related actions without having to search for options.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Inclusive Texts</h3>
+            </div>
+            <div class="body-content">
+              <p>Add personalized sections such as "Just for You", "You May Also Like" to suggest products based on your preferences, creating a more engaging and tailored shopping experience.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Low">
+            <div class="header_icon">
+              <img src="./assets/lc.png">
+              <h3 style="color: #9e9e9e;">Tailored Support</h3>
+            </div>
+            <div class="body-content">
+              <p>For product-specific support, redirect users to a dedicated support page tailored to their product instead of a generic support page.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Low">
+            <div class="header_icon">
+              <img src="./assets/lc.png">
+              <h3 style="color: #9e9e9e;">Extra White Space</h3>
+            </div>
+            <div class="body-content">
+              <p>Get rid of excessive white space in various sections to create a more compact and visually appealing layout, improving content visibility and user experience.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-content">
+        <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/OVVbfPagXTGdiK1VpjmqTS/UX-Audit?node-id=558-196&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=558%3A196&embed-host=share" allowfullscreen></iframe>
+        <div class="head recom-legend">
+          <h2 style="width: 100%; text-align: left;">Recommendations</h2>
+          <div class="tags">
+            <div class="tag1">
+              <img src="./assets/hc.png">
+              <p>High Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/mc.png">
+              <p>Medium Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/lc.png">
+              <p>Low Piority</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommendations">
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Remove Unnecessary Step</h3>
+            </div>
+            <div class="body-content">
+              <p>Based on the user’s location, products available on online platforms can be displayed directly on the product details page. For offline purchases, a CTA such as “Buy from Retailer” can be added to help users locate nearby stores for making the purchase.</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <div class="tab-content">
+        <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/OVVbfPagXTGdiK1VpjmqTS/UX-Audit?node-id=558-197&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=558%3A197&embed-host=share" allowfullscreen></iframe>
+        <div class="head recom-legend">
+          <h2 style="width: 100%; text-align: left;">Recommendations</h2>
+          <div class="tags">
+            <div class="tag1">
+              <img src="./assets/hc.png">
+              <p>High Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/mc.png">
+              <p>Medium Piority</p>
+            </div>
+            <div class="tag1">
+              <img src="./assets/lc.png">
+              <p>Low Piority</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommendations">
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Auto Populated Dropdowns</h3>
+            </div>
+            <div class="body-content">
+              <p>Users have already decided what they want to buy by this stage. Asking them to reselect the category and subcategory can be frustrating. Instead, the fields should automatically populate based on their previous selections.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="high">
+            <div class="header_icon">
+              <img src="./assets/hc.png">
+              <h3 style="color: #00903A;">Add Breadcrumbs</h3>
+            </div>
+            <div class="body-content">
+              <p>Since users have navigated through multiple pages to reach the final one, they should always be aware of their current location and have a clear path to retrace their steps.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Availability Check</h3>
+            </div>
+            <div class="body-content">
+              <p>Include stock availability status or a note advising users to call the store to check product availability before visiting.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Med">
+            <div class="header_icon">
+              <img src="./assets/mc.png">
+              <h3 style="color: #AFA901;">Store Timings</h3>
+            </div>
+            <div class="body-content">
+              <p>Include store opening and closing times on each store card to inform users of the best times to visit.</p>
+            </div>
+          </div>
+
+          <div class="pointers" id="Low">
+            <div class="header_icon">
+              <img src="./assets/lc.png">
+              <h3 style="color: #9e9e9e;">Store Identification</h3>
+            </div>
+            <div class="body-content">
+              <p>The different colored pin icons represent various types of stores, such as retail outlets, Panasonic showrooms, and others. Add a representation to explain which color corresponds to which store type.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="gen_section">
+      <div class="head">
+        <h2>Conclusion</h2>
+      </div>
+      <div class="body_text" id="user_journey_map">
+        <p>
+          <span class="black">The UX audit of Panasonic's website found several issues that make it hard for users to find products and know where to buy them. </span>
+          <span class="blue_txt" style="font-weight: 600;">Problems like a weak search function, limited filters, multiple navigation, and complicated product pages slow down the shopping process.</span> 
+          <span class="black"> Implementation of these changes will improve the shopping experience, leading to more sales and higher conversions.</span>
+      </p>  
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+</body>
+
+
+<footer>
+  <div class="gap"> </div>
+  
+          <div class="connect-container" style="font-weight: 500;">
+          <p><b>CONNECT WITH ME</b></p>
+          <n> Shoot me an email at <span><a href="mailto:sgnihalsahu5@gmail.com" style="text-decoration: none; color: #8186ff;">sgnihalsahu5@gmail.com</a></span> or find me at :</n>
+          <div class="icon-container">
+          <a href="https://www.linkedin.com/in/nihalsahu03/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.behance.net/nialsahu" target="_blank">
+            <i class="fa-brands fa-behance"></i>
+          </a>
+          </div>
+          <div class="Copyright">
+            <p>Copyright 2023 &copy; Nihal Sahu</p>
+            </div>
+          </div>
+  
+        </footer>
+  </html>
+
+    
